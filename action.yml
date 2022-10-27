@@ -1,15 +1,15 @@
-name: 'tag-exists-action'
-description: 'Checks if a given tag exists'
+name: "Check Tag Exists"
+description: "Checks if a given tag exists"
 inputs:
-  tag:  
-    description: 'Tag to search for'
+  tag:
+    description: "Tag to search for"
     required: true
 outputs:
   exists: # id of output
-    description: 'true or false'
+    description: "true or false"
 runs:
-  using: 'node12'
-  main: 'index.js'
+  using: "node16"
+  main: "index.js"
 branding:
-  icon: 'bookmark'  
-  color: 'yellow'
+  icon: "bookmark"
+  color: "yellow"
