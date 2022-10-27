@@ -17,7 +17,7 @@ a string value of 'true' or 'false'
 ## Example usage
 
 ```yaml
-- uses: uruz-7/tag-exists-action@v1.0.0
+- uses: uruz-7/tag-exists-action@v2
   id: checkTag
   with:
     tag: "v1"
